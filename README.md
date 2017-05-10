@@ -1,5 +1,7 @@
 # node-modules-check
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pnpm/node-modules-check.svg)](https://greenkeeper.io/)
+
 > Checks packages in node_modules
 
 <!--@shields('npm', 'travis')-->
