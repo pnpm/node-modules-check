@@ -1,0 +1,49 @@
+{
+  "name": "node-modules-check",
+  "version": "0.0.0",
+  "description": "Checks packages in node_modules",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mos t",
+    "md": "mos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/node-modules-check.git"
+  },
+  "keywords": [
+    "modules"
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnpm/node-modules-check/issues"
+  },
+  "homepage": "https://github.com/pnpm/node-modules-check#readme",
+  "dependencies": {
+    "dependency-check": "^2.8.0",
+    "find-packages": "^2.1.1",
+    "thenify": "^3.2.1"
+  },
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "typescript": "^2.3.2"
+  }
+}
