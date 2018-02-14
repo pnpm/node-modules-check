@@ -1,6 +1,6 @@
 {
   "name": "node-modules-check",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks packages in node_modules",
   "bin": "lib/cli.js",
   "main": "lib/index.js",
