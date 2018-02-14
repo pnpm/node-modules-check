@@ -12,6 +12,16 @@
 npm i -S node-modules-check
 ```
 
+## Usage
+
+In a project that has `node_modules`, run:
+
+```
+node-modules-check
+```
+
+Prints all dependencies that use modules not listed in their `package.json` files.
+
 ## License
 
 [MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)
