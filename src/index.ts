@@ -9,7 +9,6 @@ const dependencyCheck = thenify(dependencyCheckCB)
 export = async function (project) {
   const pkgs = await findPackages(project, {
     ignore: [],
-    dot: true,
   })
   for (const pkg of pkgs) {
     try {
@@ -22,7 +21,8 @@ export = async function (project) {
         console.log('Missing', missing.join(', '), 'in', path.relative(project, pkg.path))
       }
     } catch (err) {
-      console.warn(err.message, 'in', path.relative(project, pkg.path))
+      // we only care about missing dependencies
+      // other issues are ignored
     }
   }
 }
