@@ -12,6 +12,9 @@
     "test": "mos t",
     "md": "mos"
   },
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pnpm/node-modules-check.git"
