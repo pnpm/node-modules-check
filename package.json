@@ -49,6 +49,6 @@
     "@types/node": "^9.4.6",
     "mos": "^2.0.0-alpha.3",
     "mos-plugin-readme": "^1.0.4",
-    "typescript": "^2.3.2"
+    "typescript": "^3.0.0"
   }
 }
