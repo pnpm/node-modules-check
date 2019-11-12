@@ -42,7 +42,7 @@
   "homepage": "https://github.com/pnpm/node-modules-check#readme",
   "dependencies": {
     "dependency-check": "^3.0.0",
-    "find-packages": "^5.0.0",
+    "find-packages": "^7.0.0",
     "thenify": "^3.2.1"
   },
   "devDependencies": {
