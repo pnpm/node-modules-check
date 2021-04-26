@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/pnpm/node-modules-check#readme",
   "dependencies": {
-    "dependency-check": "^3.0.0",
+    "dependency-check": "^4.0.0",
     "find-packages": "^8.0.0",
     "thenify": "^3.2.1"
   },
